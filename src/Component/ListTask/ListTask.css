@@ -1,0 +1,24 @@
+.task {
+  margin: 1% 23%;
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.btndone {
+  background-color: #47948b !important;
+}
+.tasktext {
+  width: 500px;
+  height: 44px;
+}
+
+.delete {
+  color: white !important;
+  cursor: grab;
+}
+
+.btncheck {
+  margin: 2% 40%;
+  display: flex !important;
+  justify-content: space-around !important;
+}
