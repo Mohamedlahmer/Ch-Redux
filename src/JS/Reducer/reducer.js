@@ -37,12 +37,6 @@ const TodoReducer = (state = initialState, action) => {
         ),
       };
 
-    case Filter_Done:
-      return { ...state, Task: state.Task.filter((el) => el.isDone === true) };
-
-    case Filter_Undone:
-      return { ...state, Task: state.Task.filter((el) => el.isDone === false) };
-
     default:
       return state;
   }
